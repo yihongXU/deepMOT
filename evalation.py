@@ -133,7 +133,7 @@ if __name__ == '__main__':
     parser.add_argument('--dataset', dest='dataset', default='mot17',
                         help='dataset')
 
-    parser.add_argument('--txts_path', dest='txts_path', default=curr_path + '/saved_results/txts/test/',
+    parser.add_argument('--txts_path', dest='txts_path', default=curr_path + '/saved_results/txts/test_folder/',
                         help='txt files path')
 
     parser.add_argument('--threshold', dest='threshold', default=0.5, type=float,

@@ -56,7 +56,7 @@ def main(args, sot_tracker, deepMunkres, optimizer, mota_writer, motp_writer, cl
             print("***************************************************************")
 
             # load detections and gt bbox of this sequence
-            frames_gt = read_txt_gtV2(pth + vname + '/gt/clean_gt.txt')
+            frames_gt = read_txt_gtV2(pth + vname + '/gt/gt.txt')
             if len(frames_gt.keys()) == 0:
                 print("cannot load gt")
                 break
@@ -292,7 +292,7 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='PyTorch DeepMOT train')
 
     # data configs
-    parser.add_argument('--dataset', dest='dataset', default="mot16", help='dataset name')
+    parser.add_argument('--dataset', dest='dataset', default="mot17", help='dataset name')
 
     parser.add_argument('--logs', dest='logs', default=curr_path + '/logs/',
                         help='logs path')

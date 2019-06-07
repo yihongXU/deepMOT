@@ -354,7 +354,7 @@ if __name__ == '__main__':
     parser.add_argument('--save_path', dest='save_path', default=curr_path + '/saved_results/txts/',
                         help='saving path for txt results')
 
-    parser.add_argument('--save_dir', dest='save_dir', default='gitlab_test02',
+    parser.add_argument('--save_dir', dest='save_dir', default='test_folder',
                         help='saving dir name for txt results')
 
     # tracking configs
