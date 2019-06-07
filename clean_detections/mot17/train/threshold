@@ -1,0 +1,19 @@
+th = - 100.0
+	# train
+        if "09-DPM" in vname:
+            th = 0.1
+        elif "11-DPM" in vname:
+            th = 0.0
+        elif "13-DPM" in vname:
+            th = -0.2
+        elif "04-DPM" in vname: [IOU NMS 0.5, OKS NMS 0.5], remove big box size > 50000
+            th = 0.2
+        elif "10-DPM" in vname:
+            th = -0.3
+        elif "05-DPM" in vname:
+            th = -0.4
+        elif "02-DPM" in vname:
+            th = -0.35
+
+	# test
+
