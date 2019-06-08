@@ -205,8 +205,8 @@ Some codes are modified from the following repositories: <br />
   year = {2018}
 }
 ```
-**MOT Metrics in Python**: [**py-motmetrics**](https://github.com/cheind/py-motmetrics)
-**Appearance Features Extractor**: [**DAN**](https://github.com/shijieS/SST)
+**MOT Metrics in Python**: [**py-motmetrics**](https://github.com/cheind/py-motmetrics)<br />
+**Appearance Features Extractor**: [**DAN**](https://github.com/shijieS/SST)<br />
 ```
 @article{sun2018deep,
   title={Deep Affinity Network for Multiple Object Tracking},
