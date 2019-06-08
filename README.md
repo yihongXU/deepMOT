@@ -1,3 +1,4 @@
+
 # DeepMOT
 
 This is the official implementation with *training* code for **DeepMOT**:
@@ -28,7 +29,8 @@ If you find this code useful, please consider citing:
 1. [Environment Setup](#environment-setup)
 2. [Testing Models](#testing-models)
 3. [Training Models](#training-models)
-2. [Demo](#demo)
+4. [Demo](#demo)
+5.  [Acknowledgement](#acknowledgement)
 
 ## Environment setup
 This code has been tested on Ubuntu 16.04, Python 3.6, Pytorch> 0.4.1, CUDA 9.0 and Cuda 10.0, GTX 1080Ti, Titan X and RTX Titan GPUs.
@@ -69,25 +71,25 @@ We provide code for performing tracking with our pre-trained models on MOT Chall
 - [Setup](#environment-setup) your environment
 
 - Download MOT17 data
-Dataset can be downloaded here: [MOT17](https://team.inria.fr/perception/team-members/radu-patrice-horaud/) 
+Dataset can be downloaded here: [MOT17](https://motchallenge.net/data/MOT17/) 
 
 - Put *mot17* dataset into *deepmot/data*, *mot17* should have the following structure:
 ```
             mot17
-            â””â”€â”€â”€train
-            â”‚   â”‚
-            â”‚   â””â”€â”€â”€video_folder1
-            |   â”‚   â””â”€â”€â”€det
-            |   â”‚   â””â”€â”€â”€gt
-            |   â”‚   â””â”€â”€â”€img1
-            â”‚   â””â”€â”€â”€video_folder2
+            ©¸©¤©¤©¤train
+            ©¦   ©¦
+            ©¦   ©¸©¤©¤©¤video_folder1
+            |   ©¦   ©¸©¤©¤©¤det
+            |   ©¦   ©¸©¤©¤©¤gt
+            |   ©¦   ©¸©¤©¤©¤img1
+            ©¦   ©¸©¤©¤©¤video_folder2
             ...
-            â”‚   
-            â””â”€â”€â”€test
-            â”‚   â”‚
-            â”‚   â””â”€â”€â”€video_folder1
-            |   â”‚   â””â”€â”€â”€det
-            |   â”‚   â””â”€â”€â”€img1
+            ©¦   
+            ©¸©¤©¤©¤test
+            ©¦   ©¦
+            ©¦   ©¸©¤©¤©¤video_folder1
+            |   ©¦   ©¸©¤©¤©¤det
+            |   ©¦   ©¸©¤©¤©¤img1
             ...
 ```
 - Download pretrained models
@@ -134,30 +136,30 @@ python evaluation.py --txts_path=yourTxTfilesFolder
 - [Setup](#environment-setup) your environment
 
 - Download MOT17 data
-Dataset can be downloaded here: [MOT17](https://team.inria.fr/perception/team-members/radu-patrice-horaud/) 
+Dataset can be downloaded here: [MOT17](https://motchallenge.net/data/MOT17/) 
 
 - Put *mot17* dataset into *deepmot/data*, *mot17* should have the following structure:
 ```
             mot17
-            â””â”€â”€â”€train
-            â”‚   â”‚
-            â”‚   â””â”€â”€â”€video_folder1
-            |   â”‚   â””â”€â”€â”€det
-            |   â”‚   â””â”€â”€â”€gt
-            |   â”‚   â””â”€â”€â”€img1
-            â”‚   â””â”€â”€â”€video_folder2
+            ©¸©¤©¤©¤train
+            ©¦   ©¦
+            ©¦   ©¸©¤©¤©¤video_folder1
+            |   ©¦   ©¸©¤©¤©¤det
+            |   ©¦   ©¸©¤©¤©¤gt
+            |   ©¦   ©¸©¤©¤©¤img1
+            ©¦   ©¸©¤©¤©¤video_folder2
             ...
-            â”‚   
-            â””â”€â”€â”€test
-            â”‚   â”‚
-            â”‚   â””â”€â”€â”€video_folder1
-            |   â”‚   â””â”€â”€â”€det
-            |   â”‚   â””â”€â”€â”€img1
+            ©¦   
+            ©¸©¤©¤©¤test
+            ©¦   ©¦
+            ©¦   ©¸©¤©¤©¤video_folder1
+            |   ©¦   ©¸©¤©¤©¤det
+            |   ©¦   ©¸©¤©¤©¤img1
             ...
 ```
 
 - Download pretrained SOT model *SiamRPNVOT.model*
-SiamRPNVOT.model: [SiamRPNVOT.model](https://drive.google.com/drive/folders/1HPreiyWbOhgAxhCtvYvoB8wzt_reKzdW?usp=sharing)
+SiamRPNVOT.model (from Li et al.): [SiamRPNVOT.model](https://drive.google.com/drive/folders/1HPreiyWbOhgAxhCtvYvoB8wzt_reKzdW?usp=sharing)
 
 -Put *SiamRPNVOT.model*  to  *deepmot/pretrained* folder
 
@@ -181,3 +183,47 @@ pip install --upgrade tensorflow
 ```
 
 ## Demo
+
+## Acknowledgement
+Some codes are modified from the following repositories:
+**Single Object Tracker**: [**SiamRPN**](https://github.com/foolwood/DaSiamRPN)
+```
+@inproceedings{Zhu_2018_ECCV,
+  title={Distractor-aware Siamese Networks for Visual Object Tracking},
+  author={Zhu, Zheng and Wang, Qiang and Bo, Li and Wu, Wei and Yan, Junjie and Hu, Weiming},
+  booktitle={European Conference on Computer Vision},
+  year={2018}
+}
+
+@InProceedings{Li_2018_CVPR,
+  title = {High Performance Visual Tracking With Siamese Region Proposal Network},
+  author = {Li, Bo and Yan, Junjie and Wu, Wei and Zhu, Zheng and Hu, Xiaolin},
+  booktitle = {The IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
+  year = {2018}
+}
+```
+**MOT Metrics in Python**: [**py-motmetrics**](https://github.com/cheind/py-motmetrics)
+**Appearance Features Extractor**: [**DAN**](https://github.com/shijieS/SST)
+```
+@article{sun2018deep,
+  title={Deep Affinity Network for Multiple Object Tracking},
+  author={Sun, ShiJie and Akhtar, Naveed and Song, HuanSheng and Mian, Ajmal and Shah, Mubarak},
+  journal={arXiv preprint arXiv:1810.11780},
+  year={2018}
+}
+```
+Training and testing Data from:
+**MOT Challenge**: [**motchallenge**](https://motchallenge.net/data)
+```
+@article{MOT16,
+	title = {{MOT}16: {A} Benchmark for Multi-Object Tracking},
+	shorttitle = {MOT16},
+	url = {http://arxiv.org/abs/1603.00831},
+	journal = {arXiv:1603.00831 [cs]},
+	author = {Milan, A. and Leal-Taix\'{e}, L. and Reid, I. and Roth, S. and Schindler, K.},
+	month = mar,
+	year = {2016},
+	note = {arXiv: 1603.00831},
+	keywords = {Computer Science - Computer Vision and Pattern Recognition}
+}
+```
