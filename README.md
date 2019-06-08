@@ -9,7 +9,7 @@ This is the official implementation with *training* code for **DeepMOT**:
 
 
 <div align="center">
-  <img src="https://gitlab.inria.fr/yixu/deepmot/raw/master/pipelineV3.png" width="600px" />
+  <img src="https://gitlab.inria.fr/yixu/deepmot/raw/master/pipelineV3.png" width="900px" />
 </div>
 
 ### Bibtex
@@ -19,7 +19,7 @@ If you find this code useful, please consider citing:
 @inproceedings{Xu2019DeepMOT,
     title={DeepMOT: A Differentiable Framework for Training Multiple Object Trackers},
     author={Yihong,Xu and Yutong,Ban and Xavier,Alameda-Pineda and Radu,Horaud},
-    booktitle={arxiv:preprint},
+    booktitle={arXiv:preprint},
     year={2019}
 }
 ```
@@ -56,14 +56,14 @@ we offer a Singularity image (similar to Docker) for training and testing.
 sudo apt-get install -y singularity-container
 ```
 - Open a new terminal
-- Download a Singularity image
-[pytorch_cuda90_cudnn7.simg](https://drive.google.com/file/d/1wh5dcb_Z3wusl5yn_-0dWl0fTgYYfSAY/view?usp=sharing), [pytorch1-1-cuda100-cudnn75.simg](https://drive.google.com/file/d/1zvQ03pw8hqm6rU_w6lMrOjNcvcrjzRQ4/view?usp=sharing)
+- Download a Singularity image and put it to *deepmot/SingularityImages*
+[pytorch_cuda90_cudnn7.simg,](https://drive.google.com/file/d/1wh5dcb_Z3wusl5yn_-0dWl0fTgYYfSAY/view?usp=sharing)  <br />[pytorch1-1-cuda100-cudnn75.simg.](https://drive.google.com/file/d/1zvQ03pw8hqm6rU_w6lMrOjNcvcrjzRQ4/view?usp=sharing)
 - Launch a Singularity image
 ```shell
 cd deepmot
 singularity shell --nv --bind yourLocalPath:yourPathInsideImage ./SingularityImages/pytorch1-1-cuda100-cudnn75.simg
 ```
-**- -bind: to link a singularity path with a local path. By doing this, you can find data from local PC inside Singularity image;**
+**- -bind: to link a singularity path with a local path. By doing this, you can find data from local PC inside Singularity image;** <br />
 **- -nv: use local Nvidia driver.**
 
 ## Testing
@@ -183,9 +183,12 @@ pip install --upgrade tensorflow
 ```
 
 ## Demo
+<div align="center">
+  <img src="https://gitlab.inria.fr/yixu/deepmot/raw/master/demo.gif" width="800px" />
+</div>
 
 ## Acknowledgement
-Some codes are modified from the following repositories:
+Some codes are modified from the following repositories: <br />
 **Single Object Tracker**: [**SiamRPN**](https://github.com/foolwood/DaSiamRPN)
 ```
 @inproceedings{Zhu_2018_ECCV,
@@ -212,7 +215,7 @@ Some codes are modified from the following repositories:
   year={2018}
 }
 ```
-Training and testing Data from:
+Training and testing Data from: <br />
 **MOT Challenge**: [**motchallenge**](https://motchallenge.net/data)
 ```
 @article{MOT16,
