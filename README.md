@@ -76,20 +76,20 @@ Dataset can be downloaded here: [MOT17](https://motchallenge.net/data/MOT17/)
 - Put *mot17* dataset into *deepmot/data*, *mot17* should have the following structure:
 ```
             mot17
-            ©¸©¤©¤©¤train
-            ©¦   ©¦
-            ©¦   ©¸©¤©¤©¤video_folder1
-            |   ©¦   ©¸©¤©¤©¤det
-            |   ©¦   ©¸©¤©¤©¤gt
-            |   ©¦   ©¸©¤©¤©¤img1
-            ©¦   ©¸©¤©¤©¤video_folder2
+            |-------train
+            |    |
+            |    |---video_folder1
+            |    |   |---det
+            |    |   |---gt
+            |    |   |---img1
+            |    |
+            |    |---video_folder2
             ...
-            ©¦   
-            ©¸©¤©¤©¤test
-            ©¦   ©¦
-            ©¦   ©¸©¤©¤©¤video_folder1
-            |   ©¦   ©¸©¤©¤©¤det
-            |   ©¦   ©¸©¤©¤©¤img1
+            |-------test
+            |    |
+            |    |---video_folder1
+            |    |   |---det
+            |    |   |---img1
             ...
 ```
 - Download pretrained models
@@ -141,20 +141,20 @@ Dataset can be downloaded here: [MOT17](https://motchallenge.net/data/MOT17/)
 - Put *mot17* dataset into *deepmot/data*, *mot17* should have the following structure:
 ```
             mot17
-            ©¸©¤©¤©¤train
-            ©¦   ©¦
-            ©¦   ©¸©¤©¤©¤video_folder1
-            |   ©¦   ©¸©¤©¤©¤det
-            |   ©¦   ©¸©¤©¤©¤gt
-            |   ©¦   ©¸©¤©¤©¤img1
-            ©¦   ©¸©¤©¤©¤video_folder2
+            |-------train
+            |    |
+            |    |---video_folder1
+            |    |   |---det
+            |    |   |---gt
+            |    |   |---img1
+            |    |
+            |    |---video_folder2
             ...
-            ©¦   
-            ©¸©¤©¤©¤test
-            ©¦   ©¦
-            ©¦   ©¸©¤©¤©¤video_folder1
-            |   ©¦   ©¸©¤©¤©¤det
-            |   ©¦   ©¸©¤©¤©¤img1
+            |-------test
+            |    |
+            |    |---video_folder1
+            |    |   |---det
+            |    |   |---img1
             ...
 ```
 
