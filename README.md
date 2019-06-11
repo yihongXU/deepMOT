@@ -1,5 +1,6 @@
 
 # DeepMOT
+[![License: LGPL v3](https://img.shields.io/badge/License-LGPL%20v3-blue.svg)](https://www.gnu.org/licenses/lgpl-3.0) [![HitCount](http://hits.dwyl.io/yihongxu/deepmot.svg)](http://hits.dwyl.io/yihongxu/deepmot)
 
 This is the official implementation with *training* code for **DeepMOT**:
 
@@ -13,7 +14,7 @@ This is the official implementation with *training* code for **DeepMOT**:
 </div>
 
 ### Bibtex
-If you find this code useful, please consider citing:
+If you find this code useful, please star the project and consider citing:
 
 ```
 @inproceedings{Xu2019DeepMOT,
@@ -27,15 +28,15 @@ If you find this code useful, please consider citing:
 
 ## Contents
 1. [Environment Setup](#environment-setup)
-2. [Testing Models](#testing-models)
-3. [Training Models](#training-models)
+2. [Testing](#testing-models)
+3. [Training](#training-models)
 4. [Demo](#demo)
 5. [Acknowledgement](#acknowledgement)
 
-## Environment setup
+## Environment setup <a name="environment-setup">
 This code has been tested on Ubuntu 16.04, Python 3.6, Pytorch> 0.4.1, CUDA 9.0 and Cuda 10.0, GTX 1080Ti, Titan X and RTX Titan GPUs.
 
-**warning: the results can be slightly different due to Pytorch Version and CUDA Version.**
+**warning: the results can be slightly different due to Pytorch version and CUDA version.**
 
 - Clone the repository 
 ```
@@ -67,7 +68,7 @@ singularity shell --nv --bind yourLocalPath:yourPathInsideImage ./SingularityIma
 **- -bind: to link a singularity path with a local path. By doing this, you can find data from local PC inside Singularity image;** <br />
 **- -nv: use local Nvidia driver.**
 
-## Testing
+## Testing <a name="testing-models">
 We provide code for performing tracking with our pre-trained models on MOT Challenge dataset. The code outputs txt files for MOT Challenge submissions, they can also be used for plotting bounding boxes and visualization. 
 - [Setup](#environment-setup) your environment
 
@@ -94,7 +95,9 @@ Dataset can be downloaded here: e.g. [MOT17](https://motchallenge.net/data/MOT17
             ...
 ```
 - Download pretrained models
-all the pretrained models can be downloaded here: [pretrained models](https://drive.google.com/drive/folders/1HPreiyWbOhgAxhCtvYvoB8wzt_reKzdW?usp=sharing)
+all the pretrained models can be downloaded here: <br />
+[pretrained models(google drive)](https://drive.google.com/drive/folders/1HPreiyWbOhgAxhCtvYvoB8wzt_reKzdW?usp=sharing) or <br />
+[pretrained models(tencent cloud)](https://share.weiyun.com/5rVqDmu)
 
 -Put all pre-trained models to *deepmot/pretrained/*
 - run tracking code
@@ -124,15 +127,15 @@ python evaluation.py --txts_path=yourTxTfilesFolder
 ```
 
 | MOTA     | MOTP     | FN     | FP    | IDsW | Total Nb. Objs |
-|----------|----------|--------|-------|------|-------------------|
-|  |  |  |  | |          |
+|----------|----------|--------|-------|------|----------------|
+|  49.249% |  82.812% | 149575 | 19807 | 1592 |     336891     |
 
 **Note:** 
 - the results are better than reported in the paper because we add Camera Motion Compensation to deal with moving camera videos.
 - the results can be slightly different depending on the running environment.
 
 
-## Training
+## Training <a name="training-models">
 
 - [Setup](#environment-setup) your environment
 
@@ -160,7 +163,9 @@ Dataset can be downloaded here: e.g. [MOT17](https://motchallenge.net/data/MOT17
 ```
 
 - Download pretrained SOT model *SiamRPNVOT.model*
-SiamRPNVOT.model (from SiamRPN, Li et al., see [Acknowledgement](#acknowledgement)): [SiamRPNVOT.model](https://drive.google.com/drive/folders/1HPreiyWbOhgAxhCtvYvoB8wzt_reKzdW?usp=sharing)
+SiamRPNVOT.model (from SiamRPN, Li et al., see [Acknowledgement](#acknowledgement)): <br />
+[SiamRPNVOT.model(google drive)](https://drive.google.com/drive/folders/1HPreiyWbOhgAxhCtvYvoB8wzt_reKzdW?usp=sharing) or <br />
+[SiamRPNVOT.model(tencent cloud)](https://share.weiyun.com/5Fxw6ke)
 
 -Put *SiamRPNVOT.model*  to  *deepmot/pretrained/* folder
 
@@ -183,12 +188,12 @@ tensorboard --logdir=/mnt/beegfs/perception/yixu/opensource/deepMOT/logs/train_l
 pip install --upgrade tensorflow
 ```
 
-## Demo
+## Demo <a name="demo">
 <div align="center">
   <img src="https://gitlab.inria.fr/yixu/deepmot/raw/master/demo.gif" width="800px" />
 </div>
 
-## Acknowledgement
+## Acknowledgement <a name="Acknowledgement">
 Some codes are modified and network pretrained weights are obtained from the following repositories: <br />
 **Single Object Tracker**: [**SiamRPN**](https://github.com/foolwood/DaSiamRPN)
 ```
