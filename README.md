@@ -125,6 +125,7 @@ We provide codes for evaluting tracking results in terms of MOTP and MOTA:
 ```
 python evaluation.py --txts_path=yourTxTfilesFolder
 ```
+MOT17:
 
 | MOTA     | MOTP     | FN     | FP    | IDsW | Total Nb. Objs |
 |----------|----------|--------|-------|------|----------------|
