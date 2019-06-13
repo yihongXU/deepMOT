@@ -58,7 +58,7 @@ sudo apt-get install -y singularity-container
 ```
 - Download a Singularity image and put it to *deepmot/SingularityImages* <br />
 [pytorch_cuda90_cudnn7.simg(google drive)](https://drive.google.com/file/d/1wh5dcb_Z3wusl5yn_-0dWl0fTgYYfSAY/view?usp=sharing) <br />
-[pytorch1-1-cuda100-cudnn75.simg(google drive)](https://drive.google.com/file/d/1zvQ03pw8hqm6rU_w6lMrOjNcvcrjzRQ4/view?usp=sharing)
+[pytorch1-1-cuda100-cudnn75.simg(google drive)](https://drive.google.com/file/d/1zvQ03pw8hqm6rU_w6lMrOjNcvcrjzRQ4/view?usp=sharing)<br />
 [pytorch_cuda90_cudnn7.simg(tencent cloud)](https://share.weiyun.com/5G3Y1FK) <br />
 [pytorch1-1-cuda100-cudnn75.simg(tencent cloud)](https://share.weiyun.com/5sTjg6J)
 - Open a new terminal
