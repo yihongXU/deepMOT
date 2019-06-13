@@ -59,7 +59,7 @@ def main(args, sot_tracker, sst):
 
             # load clean detections #
             if os.path.exists(nmspth + vname + '/det/det.npy'):
-                frames_det = np.load(nmspth + vname + '/det/det.npy').item()
+                frames_det = np.load(nmspth + vname + '/det/det.npy', allow_pickle=True).item()
             else:
                 frames_det = read_txt_detV2(nmspth + vname + '/det/det.txt')
 
@@ -265,8 +265,6 @@ def main(args, sot_tracker, sst):
                         distance = np.array(distance)
 
                     # birth and death process, no need to be differentiable #
-
-                    # print([DAN_th, death_count, birth_iou, birth_wait, to_combine, to_refine, interpolate_flag, case1_interpolate, loose_assignment, interpolate_flag])
 
                     bbox_track[frameid], count_ids = \
                         tracking_birth_death(distance, bbox_track[frameid], frames_det, img_curr,
