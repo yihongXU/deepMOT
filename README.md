@@ -1,8 +1,7 @@
-
 # DeepMOT
 [![License: LGPL v3](https://img.shields.io/badge/License-LGPL%20v3-blue.svg)](https://www.gnu.org/licenses/lgpl-3.0) [![HitCount](http://hits.dwyl.io/yihongxu/deepmot.svg)](http://hits.dwyl.io/yihongxu/deepmot)
 
-This is the official implementation with *training* code for **DeepMOT**:
+This is the official implementation with *training* code for the paper:
 
 **DeepMOT: A Differentiable Framework for Training Multiple Object Trackers** <br />
 [Yihong Xu](https://team.inria.fr/perception/team-members/yihong-xu/), [Yutong Ban](https://team.inria.fr/perception/team-members/yutong-ban/), [Xavier Alameda-Pineda](https://team.inria.fr/perception/team-members/xavier-alameda-pineda/), [Radu Horaud](https://team.inria.fr/perception/team-members/radu-patrice-horaud/) <br />
