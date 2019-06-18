@@ -39,7 +39,7 @@ This code has been tested on Ubuntu 16.04, Python 3.6, Pytorch> 0.4.1, CUDA 9.0 
 
 - Clone the repository 
 ```
-git clone git@gitlab.inria.fr:yixu/deepmot.git && cd deepmot
+git clone https://github.com/yihongXU/deepMOT.git && cd deepmot
 ```
 **Option 1:**
 - Setup python environment
