@@ -5,7 +5,7 @@ This is the official implementation with *training* code for the paper:
 
 **DeepMOT: A Differentiable Framework for Training Multiple Object Trackers** <br />
 [Yihong Xu](https://team.inria.fr/perception/team-members/yihong-xu/), [Yutong Ban](https://team.inria.fr/perception/team-members/yutong-ban/), [Xavier Alameda-Pineda](https://team.inria.fr/perception/team-members/xavier-alameda-pineda/), [Radu Horaud](https://team.inria.fr/perception/team-members/radu-patrice-horaud/) <br />
-**[[Paper](https://arxiv.org)]** <br />
+**[[Paper](https://arxiv.org/abs/1906.06618)]** <br />
 
 
 <div align="center">
@@ -19,7 +19,7 @@ If you find this code useful, please star the project and consider citing:
 @inproceedings{Xu2019DeepMOT,
     title={DeepMOT: A Differentiable Framework for Training Multiple Object Trackers},
     author={Yihong,Xu and Yutong,Ban and Xavier,Alameda-Pineda and Radu,Horaud},
-    booktitle={arXiv:preprint},
+    booktitle={arXiv preprint arXiv:1906.06618},
     year={2019}
 }
 ```
