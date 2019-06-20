@@ -33,7 +33,7 @@ If you find this code useful, please star the project and consider citing:
 5. [Acknowledgement](#acknowledgement)
 
 ## Environment setup <a name="environment-setup">
-This code has been tested on Ubuntu 16.04, Python 3.6, Pytorch> 0.4.1, CUDA 9.0 and Cuda 10.0, GTX 1080Ti, Titan X and RTX Titan GPUs.
+This code has been tested on Ubuntu 16.04, Python 3.6, Pytorch> 0.4.1, CUDA 9.0 and CUDA 10.0, GTX 1080Ti, Titan X and RTX Titan GPUs.
 
 **warning: the results can be slightly different due to Pytorch version and CUDA version.**
 
