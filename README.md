@@ -193,7 +193,7 @@ pip install --upgrade tensorflow
 
 ## Demo <a name="demo">
 <div align="center">
-  <img src="https://gitlab.inria.fr/yixu/deepmot/raw/master/demo.gif" width="800px" />
+  <img src="https://github.com/yihongXU/deepMOT/raw/master/demo.gif" width="800px" />
 </div>
 
 ## Acknowledgement <a name="Acknowledgement">
