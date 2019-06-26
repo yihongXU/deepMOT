@@ -16,11 +16,11 @@ This is the official implementation with *training* code for the paper:
 If you find this code useful, please star the project and consider citing:
 
 ```
-@inproceedings{Xu2019DeepMOT,
-    title={DeepMOT: A Differentiable Framework for Training Multiple Object Trackers},
-    author={Yihong,Xu and Yutong,Ban and Xavier,Alameda-Pineda and Radu,Horaud},
-    booktitle={arXiv preprint arXiv:1906.06618},
-    year={2019}
+@article{xu2019deepmot,
+  title={DeepMOT: A Differentiable Framework for Training Multiple Object Trackers},
+  author={Xu, Yihong and Ban, Yutong and Alameda-Pineda, Xavier and Horaud, Radu},
+  journal={arXiv preprint arXiv:1906.06618},
+  year={2019}
 }
 ```
 
