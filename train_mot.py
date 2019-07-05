@@ -48,7 +48,7 @@ def main(args, sot_tracker, deepMunkres, optimizer, mota_writer, motp_writer, cl
         random.shuffle(videos)
 
         for vname in videos:
-            if "flip" in vname or "rot" in vname:
+            if "flip" in vname or "rot" in vname or 'DPM' not in vname:
                 continue
 
             print("***************************************************************")
