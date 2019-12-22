@@ -111,7 +111,7 @@ if __name__ == '__main__':
     print("Loading parameters...")
     curr_path = realpath(dirname(__file__))
     parser = argparse.ArgumentParser(description='Plot Images from Results')
-    parser.add_argument('--data_root', dest='data_root', default=curr_path + '/data/mot17/train/',
+    parser.add_argument('--data_root', dest='data_root', default=curr_path + '/data/',
                         help='dataset root path')
 
     parser.add_argument('--results_path', dest='results_path', default=curr_path + '/saved_results/txts/test_folder/',
