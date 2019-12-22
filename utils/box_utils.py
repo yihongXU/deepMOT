@@ -84,6 +84,23 @@ def warpcoordinates(coordinates, warp_matrix):
         return np.transpose(np.dot(warp_matrix, coordinates))
 
 
+# def getWarpMatrix(im1, im2):
+#     """
+#     get warp matrix
+#     :param im1: curr image, numpy array, (h, w, c)
+#     :param im2: prev image, numpy array, (h, w, c)
+#     :return: affine transformation matrix, numpy array, (h, w)
+#     """
+#     im1Gray = cv2.cvtColor(im1, cv2.COLOR_BGR2GRAY)
+#     im2Gray_ref = cv2.cvtColor(im2, cv2.COLOR_BGR2GRAY)
+
+#     warp_mode = cv2.MOTION_AFFINE
+#     warp_matrix = np.eye(2, 3, dtype=np.float32)
+
+#     cc, warp_matrix = cv2.findTransformECC(im2Gray_ref, im1Gray, warp_matrix, warp_mode)
+
+#     return warp_matrix
+
 def getWarpMatrix(im1, im2):
     """
     get warp matrix
@@ -94,13 +111,14 @@ def getWarpMatrix(im1, im2):
     im1Gray = cv2.cvtColor(im1, cv2.COLOR_BGR2GRAY)
     im2Gray_ref = cv2.cvtColor(im2, cv2.COLOR_BGR2GRAY)
 
-    warp_mode = cv2.MOTION_AFFINE
+    warp_mode = cv2.MOTION_EUCLIDEAN
     warp_matrix = np.eye(2, 3, dtype=np.float32)
+    number_of_iterations = 100
+    termination_eps = 0.00001
+    criteria = (cv2.TERM_CRITERIA_EPS | cv2.TermCriteria_COUNT, number_of_iterations, termination_eps)
 
-    cc, warp_matrix = cv2.findTransformECC(im2Gray_ref, im1Gray, warp_matrix, warp_mode)
-
+    cc, warp_matrix = cv2.findTransformECC(im2Gray_ref, im1Gray, warp_matrix, warp_mode, criteria)
     return warp_matrix
-
 
 # torch version #
 
