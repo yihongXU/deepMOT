@@ -3,8 +3,8 @@
 
 This is the official implementation with *training* code for the paper:
 
-**DeepMOT: A Differentiable Framework for Training Multiple Object Trackers** <br />
-[Yihong Xu](https://team.inria.fr/perception/team-members/yihong-xu/), [Yutong Ban](https://team.inria.fr/perception/team-members/yutong-ban/), [Xavier Alameda-Pineda](https://team.inria.fr/perception/team-members/xavier-alameda-pineda/), [Radu Horaud](https://team.inria.fr/perception/team-members/radu-patrice-horaud/) <br />
+**How To Train Your Deep Multi-Object Tracker** <br />
+[Yihong Xu](https://team.inria.fr/perception/team-members/yihong-xu/), [Aljosa Osep](https://dvl.in.tum.de/team/osep/), [Yutong Ban](https://team.inria.fr/perception/team-members/yutong-ban/), [Radu Horaud](https://team.inria.fr/perception/team-members/radu-patrice-horaud/),[Laura Leal-Taixé](https://dvl.in.tum.de/team/lealtaixe/), [Xavier Alameda-Pineda](https://team.inria.fr/perception/team-members/xavier-alameda-pineda/) <br />
 **[[Paper](https://arxiv.org/abs/1906.06618)]** <br />
 
 
@@ -16,14 +16,17 @@ This is the official implementation with *training* code for the paper:
 If you find this code useful, please star the project and consider citing:
 
 ```
-@article{xu2019deepmot,
-  title={DeepMOT: A Differentiable Framework for Training Multiple Object Trackers},
-  author={Xu, Yihong and Ban, Yutong and Alameda-Pineda, Xavier and Horaud, Radu},
-  journal={arXiv preprint arXiv:1906.06618},
-  year={2019}
+@misc{xu2019train,
+    title={How To Train Your Deep Multi-Object Tracker},
+    author={Yihong Xu and Aljosa Osep and Yutong Ban and Radu Horaud and Laura Leal-Taixe and Xavier Alameda-Pineda},
+    year={2019},
+    eprint={1906.06618},
+    archivePrefix={arXiv},
+    primaryClass={cs.CV}
 }
 ```
-
+### Note
+We are now preparing the code using Tracktor as tracker, this code will be available soon.
 
 ## Contents
 1. [Environment Setup](#environment-setup)
@@ -198,7 +201,7 @@ pip install --upgrade tensorflow
 
 ## Acknowledgement <a name="Acknowledgement">
 Some codes are modified and network pretrained weights are obtained from the following repositories: <br />
-**Single Object Tracker**: [**SiamRPN**](https://github.com/foolwood/DaSiamRPN)
+**Single Object Tracker**: [**SiamRPN**](https://github.com/foolwood/DaSiamRPN), [**Tracktor**](https://github.com/phil-bergmann/tracking_wo_bnw/tree/master/src/tracktor).
 ```
 @inproceedings{Zhu_2018_ECCV,
   title={Distractor-aware Siamese Networks for Visual Object Tracking},
@@ -213,6 +216,13 @@ Some codes are modified and network pretrained weights are obtained from the fol
   booktitle = {The IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
   year = {2018}
 }
+
+@InProceedings{tracktor_2019_ICCV,
+  author = {Bergmann, Philipp and Meinhardt, Tim and Leal{-}Taix{\'{e}}}, Laura},
+  title = {Tracking Without Bells and Whistles},
+  booktitle = {The IEEE International Conference on Computer Vision (ICCV)},
+  month = {October},
+  year = {2019}}
 ```
 **MOT Metrics in Python**: [**py-motmetrics**](https://github.com/cheind/py-motmetrics)<br />
 **Appearance Features Extractor**: [**DAN**](https://github.com/shijieS/SST)<br />
