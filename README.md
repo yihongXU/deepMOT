@@ -25,8 +25,8 @@ If you find this code useful, please star the project and consider citing:
     primaryClass={cs.CV}
 }
 ```
-### Note
-We are now preparing the code using Tracktor as tracker, this code will be available soon.
+### Important Note
+**The provided models and code are from the previous version of the work. We will make publicly available the new code and trained models used in the newly submitted paper in the following week.***
 
 ## Contents
 1. [Environment Setup](#environment-setup)
