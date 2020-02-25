@@ -1,4 +1,8 @@
 # DeepMOT
+
+### Important Note
+**This is the branch with obsolete version of our work and it is no more matained, a newer version with code and models as well as data will be provided very soon, please go the the master branch.**
+
 [![License: LGPL v3](https://img.shields.io/badge/License-LGPL%20v3-blue.svg)](https://www.gnu.org/licenses/lgpl-3.0) [![HitCount](http://hits.dwyl.io/yihongxu/deepmot.svg)](http://hits.dwyl.io/yihongxu/deepmot)
 
 This is the official implementation with *training* code for the paper:
@@ -25,8 +29,6 @@ If you find this code useful, please star the project and consider citing:
     primaryClass={cs.CV}
 }
 ```
-### Important Note
-**The provided models and code are from the previous version of the work. We will make publicly available the new code and trained models used in the newly submitted paper in the following week.**
 
 ## Contents
 1. [Environment Setup](#environment-setup)
