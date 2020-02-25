@@ -1,2 +1,0 @@
-
-# Singularity Images Folder
