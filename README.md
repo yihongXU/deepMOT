@@ -202,7 +202,7 @@ If you find this code useful, please star the project and consider citing:
 
 ## Demo <a name="demo">
 <div align="center">
-  <img src="https://gitlab.inria.fr/yixu/deepmot/-/raw/obsolete/demo.gif" width="800px" />
+  <img src="https://github.com/yihongXU/deepMOT/raw/obsolete/demo.gif" width="800px" />
 </div>
 
 ## Acknowledgement <a name="Acknowledgement">
