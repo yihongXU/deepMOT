@@ -1,7 +1,7 @@
 # DeepMOT
 [![License: LGPL v3](https://img.shields.io/badge/License-LGPL%20v3-blue.svg)](https://www.gnu.org/licenses/lgpl-3.0) [![HitCount](http://hits.dwyl.io/yihongxu/deepmot.svg)](http://hits.dwyl.io/yihongxu/deepmot)
 
-**News: We release the code for training and testing DeepMOT-Tracktor and the code for training DHN. Please visit: https://gitlab.inria.fr/yixu/deepmot/-/tree/master**
+**News: We release the code for training and testing DeepMOT-Tracktor and the code for training DHN. Please visit: https://gitlab.inria.fr/yixu/deepmot**
 
 **How To Train Your Deep Multi-Object Tracker** <br />
 [Yihong Xu](https://team.inria.fr/perception/team-members/yihong-xu/), [Aljosa Osep](https://dvl.in.tum.de/team/osep/), [Yutong Ban](https://team.inria.fr/perception/team-members/yutong-ban/), [Radu Horaud](https://team.inria.fr/perception/team-members/radu-patrice-horaud/),[Laura Leal-Taixé](https://dvl.in.tum.de/team/lealtaixe/), [Xavier Alameda-Pineda](https://team.inria.fr/perception/team-members/xavier-alameda-pineda/) <br />
