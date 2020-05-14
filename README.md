@@ -7,9 +7,22 @@
 [Yihong Xu](https://team.inria.fr/perception/team-members/yihong-xu/), [Aljosa Osep](https://dvl.in.tum.de/team/osep/), [Yutong Ban](https://team.inria.fr/perception/team-members/yutong-ban/), [Radu Horaud](https://team.inria.fr/perception/team-members/radu-patrice-horaud/),[Laura Leal-Taixé](https://dvl.in.tum.de/team/lealtaixe/), [Xavier Alameda-Pineda](https://team.inria.fr/perception/team-members/xavier-alameda-pineda/) <br />
 **[[Paper](https://arxiv.org/abs/1906.06618)]** <br />
 
+### Bibtex
+If you find this code useful, please star the project and consider citing:
+
+```
+@misc{xu2019train,
+    title={How To Train Your Deep Multi-Object Tracker},
+    author={Yihong Xu and Aljosa Osep and Yutong Ban and Radu Horaud and Laura Leal-Taixe and Xavier Alameda-Pineda},
+    year={2019},
+    eprint={1906.06618},
+    archivePrefix={arXiv},
+    primaryClass={cs.CV}
+}
+```
 
 <div align="center">
-  <img src="https://gitlab.inria.fr/yixu/deepmot/-/raw/master/teaser.pdf" width="900px" />
+  <img src="https://gitlab.inria.fr/yixu/deepmot/-/raw/master/teaser.pdf" width="800px" />
 </div>
 
 ## Environment setup <a name="environment-setup">
@@ -186,23 +199,9 @@ MOT16/17 private detections:
 - the results can be slightly different depending on the running environment.
 
 
-### Bibtex
-If you find this code useful, please star the project and consider citing:
-
-```
-@misc{xu2019train,
-    title={How To Train Your Deep Multi-Object Tracker},
-    author={Yihong Xu and Aljosa Osep and Yutong Ban and Radu Horaud and Laura Leal-Taixe and Xavier Alameda-Pineda},
-    year={2019},
-    eprint={1906.06618},
-    archivePrefix={arXiv},
-    primaryClass={cs.CV}
-}
-```
-
 ## Demo <a name="demo">
 <div align="center">
-  <img src="https://github.com/yihongXU/deepMOT/raw/obsolete/demo.gif" width="800px" />
+  <img src="https://gitlab.inria.fr/yixu/deepmot/-/raw/master/trackingresults.gif?inline=false" width="800px" />
 </div>
 
 ## Acknowledgement <a name="Acknowledgement">
