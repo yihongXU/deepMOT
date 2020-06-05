@@ -11,13 +11,11 @@
 If you find this code useful, please star the project and consider citing:
 
 ```
-@misc{xu2019train,
+@inproceedings{xu2019train,
     title={How To Train Your Deep Multi-Object Tracker},
-    author={Yihong Xu and Aljosa Osep and Yutong Ban and Radu Horaud and Laura Leal-Taixe and Xavier Alameda-Pineda},
-    year={2019},
-    eprint={1906.06618},
-    archivePrefix={arXiv},
-    primaryClass={cs.CV}
+    author={Yihong Xu and Aljo\v{s}a O\v{s}ep and Yutong Ban and Radu Horaud and Laura Leal-Taix{\'e} and Xavier Alameda-Pineda},
+    year={2020},
+    booktitle={Conference on Computer Vision and Pattern Recognition (CVPR)}
 }
 ```
 
