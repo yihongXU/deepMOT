@@ -200,7 +200,7 @@ MOT16/17 private detections:
 
 ## Demo <a name="demo">
 <div align="center">
-  <img src="https://gitlab.inria.fr/yixu/deepmot/-/raw/master/trackingresults.gif?inline=false" width="500px" />
+  <img src="https://github.com/yihongXU/deepMOT/raw/master/trackingresults.gif" width="500px" />
 </div>
 
 ## Acknowledgement <a name="Acknowledgement">
