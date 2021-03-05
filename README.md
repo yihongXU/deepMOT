@@ -1,4 +1,4 @@
-# DeepMOT
+# DeepMOT-CVPR2020
 [![License: LGPL v3](https://img.shields.io/badge/License-LGPL%20v3-blue.svg)](https://www.gnu.org/licenses/lgpl-3.0) [![HitCount](http://hits.dwyl.io/yihongxu/deepmot.svg)](http://hits.dwyl.io/yihongxu/deepmot)
 
 **News: We release the code for training and testing DeepMOT-Tracktor and the code for training DHN. Please visit: https://gitlab.inria.fr/yixu/deepmot**
