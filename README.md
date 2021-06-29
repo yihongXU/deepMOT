@@ -40,8 +40,8 @@ git clone git@gitlab.inria.fr:yixu/deepmot.git && cd deepmot
 
 we provide a Singularity image with all packages pre-installed (similar to Docker) for training and testing.
 - Open a terminal
-- Install Singularity > 3.0 package:
-[https://sylabs.io/guides/3.3/user-guide/installation.html#install-on-linux](url)
+- Install Singularity > 3.0 package: <br />
+[https://sylabs.io/guides/3.3/user-guide/installation.html#install-on-linux](https://sylabs.io/guides/3.3/user-guide/installation.html#install-on-linux)
 - Download the Singularity image: <br />
 [tracker.sif (google drive)](https://drive.google.com/file/d/1sR-tTtprbkQ1NAIpY2oiQjSrbuxoYTCc/view?usp=sharing)  or <br />
 [tracker.sif (tencent cloud)](https://share.weiyun.com/5RK76iq) <br />
