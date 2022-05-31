@@ -1,7 +1,7 @@
 ## CVPR2020: How To Train Your Deep Multi-Object Tracker <br />
 [![License: LGPL v3](https://img.shields.io/badge/License-LGPL%20v3-blue.svg)](https://www.gnu.org/licenses/lgpl-3.0)
 
-**News: We release the code for training and testing DeepMOT-Tracktor and the code for training DHN. Please visit: https://gitlab.inria.fr/yixu/deepmot**
+**News: We release the code for training and testing DeepMOT-Tracktor and the code for training DHN. Please visit: https://gitlab.inria.fr/robotlearn/deepmot**
 
 **How To Train Your Deep Multi-Object Tracker** <br />
 [Yihong Xu](https://team.inria.fr/perception/team-members/yihong-xu/), [Aljosa Osep](https://dvl.in.tum.de/team/osep/), [Yutong Ban](https://team.inria.fr/perception/team-members/yutong-ban/), [Radu Horaud](https://team.inria.fr/perception/team-members/radu-patrice-horaud/), [Laura Leal-Taixé](https://dvl.in.tum.de/team/lealtaixe/), [Xavier Alameda-Pineda](https://team.inria.fr/perception/team-members/xavier-alameda-pineda/) <br />
